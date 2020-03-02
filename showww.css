@@ -1,0 +1,86 @@
+.panel
+{
+    width : 100%;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    
+}
+#maindetails
+{
+    text-align: center;
+    background-color:palevioletred;
+    width: 25%;
+    border-radius: 1%;
+    margin-right:1%;
+    height: 35%;
+    position :fixed;
+    
+    
+    
+
+}
+#moreabout
+{
+    
+    width:75%;
+    border-radius: 1%;
+    background-color: palegreen;
+    margin-left:26%;
+
+    
+
+}
+/*Applying media queries for mobile view and tablet view.*/
+@media only screen and (max-device-width:600px)
+{
+    .panel{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    #maindetails
+    {
+        width:100%;
+        height: 50%;
+        position: relative;
+    }
+    #moreabout
+    {
+    
+        width:100%;
+        border-radius: 1%;
+        background-color: palegreen;
+        margin-left:0%;
+        margin-top:20%;
+
+    
+
+    }
+
+}
+@media only screen and (max-device-width:240px)
+{
+    .panel{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    #maindetails
+    {
+        width:100%;
+        
+        position: relative;
+    
+    }
+    #moreabout
+    {
+    
+        width:100%;
+        border-radius: 1%;
+        background-color: palegreen;
+        margin-left:0%;
+        margin-top:20%;
+
+
+}
+

@@ -1,0 +1,12 @@
+{
+    "basics":
+    {
+        "name":"Showww",
+        "rno":"M2",
+        "email":"nagababuthota593@gmail.com",
+        "mobile":8179596420,
+        "education":[ {"degree":"ssc","percentage":"9.8"},{"degree":"inter","percentage":"98.4"} ]
+           
+            
+    }
+}

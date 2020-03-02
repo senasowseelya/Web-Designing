@@ -1,0 +1,28 @@
+.style
+{
+    width : 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+#side1,#side2
+{
+    text-align: center;
+    background-color:palevioletred;
+    width: 40%;
+    border-radius: 5%;    
+}
+#list1,#list2
+{
+
+    background-color: rosybrown;
+    border-radius: 5%;
+}
+/*Media query for mobile view*/
+@media only screen and (max-device-width:600px){
+    #side1,#side2{
+        width: 100%;
+    
+   
+    }
+}

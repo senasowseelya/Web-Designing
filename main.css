@@ -1,0 +1,14 @@
+.main{
+    background-color:snow;
+    width:100%;
+    justify-content:space-around;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+#side1,#side2{
+    text-align:center;
+    background-color:blue;
+    width: 40%;
+    margin-bottom: 5%;
+}
